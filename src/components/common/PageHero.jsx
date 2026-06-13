@@ -1,4 +1,6 @@
-export default function PageHero({ eyebrow, title, description, image = "/images/magelang-hero.png" }) {
+import { assetPath } from "../../utils/assets.js";
+
+export default function PageHero({ eyebrow, title, description, image = assetPath("images/magelang-hero.png") }) {
   return (
     <header className="relative isolate overflow-hidden bg-[#111827] py-20 text-white md:py-24">
       <img

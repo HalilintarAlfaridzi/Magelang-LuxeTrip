@@ -8,6 +8,7 @@ import BlogCard from "../components/blog/BlogCard.jsx";
 import BlogGrid from "../components/blog/BlogGrid.jsx";
 import { blogCategories } from "../data/categories.js";
 import { blogPosts } from "../data/blogPosts.js";
+import { assetPath } from "../utils/assets.js";
 import { filterByCategory } from "../utils/filters.js";
 import { setSeo } from "../utils/seo.js";
 
@@ -32,7 +33,7 @@ export default function TravelTips() {
         eyebrow="Travel Tips"
         title="Magelang Travel Tips & Destination Guide"
         description="Practical articles for planning cultural visits, family trips, student tours, nature routes, and premium travel."
-        image="/images/magelang-sunrise.png"
+        image={assetPath("images/magelang-sunrise.png")}
       />
       <section className="section-padding">
         <div className="container-shell">

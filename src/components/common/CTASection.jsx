@@ -1,12 +1,13 @@
 import WhatsAppButton from "./WhatsAppButton.jsx";
 import { whatsappMessages } from "../../utils/whatsapp.js";
+import { assetPath } from "../../utils/assets.js";
 
 export default function CTASection({
   title = "Ready to Plan Your Magelang Trip?",
   description = "Chat with Magelang LuxeTrip and get a curated travel recommendation for your family, group, or private trip.",
   buttonLabel = "Consult via WhatsApp",
   whatsappMessage = whatsappMessages.general,
-  image = "/images/magelang-sunrise.png",
+  image = assetPath("images/magelang-sunrise.png"),
 }) {
   return (
     <section className="relative isolate overflow-hidden bg-[#111827] py-16 text-white">

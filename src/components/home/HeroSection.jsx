@@ -4,6 +4,7 @@ import { ArrowRight, Search } from "lucide-react";
 import Button from "../common/Button.jsx";
 import WhatsAppButton from "../common/WhatsAppButton.jsx";
 import { destinationCategories } from "../../data/categories.js";
+import { assetPath } from "../../utils/assets.js";
 import { whatsappMessages } from "../../utils/whatsapp.js";
 
 export default function HeroSection() {
@@ -22,7 +23,7 @@ export default function HeroSection() {
   return (
     <section className="relative isolate overflow-hidden bg-[#111827] text-white">
       <img
-        src="/images/magelang-hero.png"
+        src={assetPath("images/magelang-hero.png")}
         alt="Borobudur-inspired Magelang temple landscape in warm morning light"
         className="absolute inset-0 -z-20 h-full w-full object-cover"
       />

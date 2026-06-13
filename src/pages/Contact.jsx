@@ -6,6 +6,7 @@ import CTASection from "../components/common/CTASection.jsx";
 import WhatsAppButton from "../components/common/WhatsAppButton.jsx";
 import FAQAccordion from "../components/faq/FAQAccordion.jsx";
 import { faqs } from "../data/faqs.js";
+import { assetPath } from "../utils/assets.js";
 import { WHATSAPP_NUMBER, whatsappMessages } from "../utils/whatsapp.js";
 import { setSeo } from "../utils/seo.js";
 
@@ -51,7 +52,7 @@ export default function Contact() {
         eyebrow="Contact"
         title="Plan Your Magelang Trip"
         description="Send a WhatsApp inquiry for destination recommendations, package details, family routes, student trips, or a custom itinerary."
-        image="/images/magelang-sunrise.png"
+        image={assetPath("images/magelang-sunrise.png")}
       />
       <section className="section-padding">
         <div className="container-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">

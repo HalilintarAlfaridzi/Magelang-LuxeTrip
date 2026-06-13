@@ -1,10 +1,12 @@
+import { assetPath } from "../utils/assets.js";
+
 export const blogPosts = [
   {
     id: 1,
     slug: "best-time-to-visit-borobudur",
     title: "Best Time to Visit Borobudur Temple",
     category: "Travel Guide",
-    image: "/images/magelang-hero.png",
+    image: assetPath("images/magelang-hero.png"),
     excerpt:
       "Learn how to choose a comfortable visiting time for Borobudur, especially for families and first-time visitors.",
     readTime: "5 min read",
@@ -37,7 +39,7 @@ export const blogPosts = [
     slug: "family-friendly-destinations-in-magelang",
     title: "Family-Friendly Destinations in Magelang",
     category: "Family Travel",
-    image: "/images/magelang-family.png",
+    image: assetPath("images/magelang-family.png"),
     excerpt:
       "A concise guide to comfortable Magelang destinations for parents, children, and mixed-age family groups.",
     readTime: "6 min read",
@@ -70,7 +72,7 @@ export const blogPosts = [
     slug: "magelang-travel-guide-for-international-tourists",
     title: "Magelang Travel Guide for International Tourists",
     category: "Premium Travel",
-    image: "/images/magelang-sunrise.png",
+    image: assetPath("images/magelang-sunrise.png"),
     excerpt:
       "Clear planning notes for international travelers visiting Borobudur, villages, and nature destinations in Magelang.",
     readTime: "7 min read",
@@ -103,7 +105,7 @@ export const blogPosts = [
     slug: "one-day-magelang-itinerary-for-families",
     title: "One-Day Magelang Itinerary for Families",
     category: "Family Travel",
-    image: "/images/magelang-family.png",
+    image: assetPath("images/magelang-family.png"),
     excerpt:
       "A simple one-day structure for families who want culture, scenery, food, and enough rest time.",
     readTime: "5 min read",
@@ -136,7 +138,7 @@ export const blogPosts = [
     slug: "what-to-prepare-before-traveling-to-magelang",
     title: "What to Prepare Before Traveling to Magelang",
     category: "Travel Preparation",
-    image: "/images/magelang-village.png",
+    image: assetPath("images/magelang-village.png"),
     excerpt:
       "A practical preparation checklist for weather, clothing, route timing, and WhatsApp consultation.",
     readTime: "4 min read",
@@ -169,7 +171,7 @@ export const blogPosts = [
     slug: "how-to-choose-the-right-magelang-tour-package",
     title: "How to Choose the Right Magelang Tour Package",
     category: "Travel Guide",
-    image: "/images/magelang-sunrise.png",
+    image: assetPath("images/magelang-sunrise.png"),
     excerpt:
       "Compare family, student, nature, and premium private routes before asking for a custom recommendation.",
     readTime: "6 min read",

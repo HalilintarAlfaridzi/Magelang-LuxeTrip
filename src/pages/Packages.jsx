@@ -7,6 +7,7 @@ import CTASection from "../components/common/CTASection.jsx";
 import PackageGrid from "../components/packages/PackageGrid.jsx";
 import { packageCategories } from "../data/categories.js";
 import { tourPackages } from "../data/packages.js";
+import { assetPath } from "../utils/assets.js";
 import { filterByCategory, includesKeyword } from "../utils/filters.js";
 import { setSeo } from "../utils/seo.js";
 
@@ -42,7 +43,7 @@ export default function Packages() {
         eyebrow="Curated Tour Packages"
         title="Magelang Tour Packages"
         description="Choose from family, student, cultural, nature, corporate, and premium private trip concepts."
-        image="/images/magelang-family.png"
+        image={assetPath("images/magelang-family.png")}
       />
       <section className="section-padding">
         <div className="container-shell">

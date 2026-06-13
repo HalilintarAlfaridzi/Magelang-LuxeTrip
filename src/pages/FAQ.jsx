@@ -5,6 +5,7 @@ import CategoryFilter from "../components/common/CategoryFilter.jsx";
 import CTASection from "../components/common/CTASection.jsx";
 import FAQAccordion from "../components/faq/FAQAccordion.jsx";
 import { faqs } from "../data/faqs.js";
+import { assetPath } from "../utils/assets.js";
 import { setSeo } from "../utils/seo.js";
 
 const faqCategories = ["All", ...Array.from(new Set(faqs.map((faq) => faq.category)))];
@@ -31,7 +32,7 @@ export default function FAQ() {
         eyebrow="FAQ"
         title="Magelang Travel FAQ"
         description="Answers to common questions about destination planning, packages, family trips, student groups, and WhatsApp inquiries."
-        image="/images/magelang-family.png"
+        image={assetPath("images/magelang-family.png")}
       />
       <section className="section-padding">
         <div className="container-shell">

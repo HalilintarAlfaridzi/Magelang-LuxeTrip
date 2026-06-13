@@ -12,9 +12,12 @@ import Contact from "../pages/Contact.jsx";
 import FAQ from "../pages/FAQ.jsx";
 import NotFoundPage from "../pages/NotFoundPage.jsx";
 
+const baseUrl = import.meta.env.BASE_URL || "/";
+const routerBasename = baseUrl.startsWith("/") && baseUrl !== "/" ? baseUrl.replace(/\/$/, "") : undefined;
+
 export default function AppRouter() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <PageWrapper>
         <Routes>
           <Route path="/" element={<Home />} />

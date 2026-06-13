@@ -1,10 +1,12 @@
+import { assetPath } from "../utils/assets.js";
+
 export const tourPackages = [
   {
     id: 1,
     slug: "borobudur-sunrise-experience",
     title: "Borobudur Sunrise Experience",
     category: "Premium Experiences",
-    image: "/images/magelang-hero.png",
+    image: assetPath("images/magelang-hero.png"),
     duration: "1 Day",
     priceLabel: "Contact for price",
     shortDescription:
@@ -41,7 +43,7 @@ export const tourPackages = [
     slug: "magelang-family-weekend-trip",
     title: "Magelang Family Weekend Trip",
     category: "Family Tours",
-    image: "/images/magelang-family.png",
+    image: assetPath("images/magelang-family.png"),
     duration: "2 Days 1 Night",
     priceLabel: "Contact for price",
     shortDescription:
@@ -71,7 +73,7 @@ export const tourPackages = [
     slug: "student-cultural-study-tour",
     title: "Student Cultural Study Tour",
     category: "Student Tours",
-    image: "/images/magelang-family.png",
+    image: assetPath("images/magelang-family.png"),
     duration: "1 Day",
     priceLabel: "Group quote via WhatsApp",
     shortDescription:
@@ -101,7 +103,7 @@ export const tourPackages = [
     slug: "premium-nature-escape",
     title: "Premium Nature Escape",
     category: "Nature Tours",
-    image: "/images/magelang-sunrise.png",
+    image: assetPath("images/magelang-sunrise.png"),
     duration: "1 Day",
     priceLabel: "Contact for price",
     shortDescription:
@@ -129,7 +131,7 @@ export const tourPackages = [
     slug: "hidden-gems-private-tour",
     title: "Hidden Gems Private Tour",
     category: "Premium Experiences",
-    image: "/images/magelang-village.png",
+    image: assetPath("images/magelang-village.png"),
     duration: "1 Day",
     priceLabel: "Private quote via WhatsApp",
     shortDescription:
@@ -156,7 +158,7 @@ export const tourPackages = [
     slug: "corporate-cultural-retreat",
     title: "Corporate Cultural Retreat",
     category: "Corporate Trips",
-    image: "/images/magelang-hero.png",
+    image: assetPath("images/magelang-hero.png"),
     duration: "Custom Duration",
     priceLabel: "Custom quote via WhatsApp",
     shortDescription:

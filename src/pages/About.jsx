@@ -4,6 +4,7 @@ import PageHero from "../components/common/PageHero.jsx";
 import SectionHeader from "../components/common/SectionHeader.jsx";
 import CTASection from "../components/common/CTASection.jsx";
 import WhatsAppButton from "../components/common/WhatsAppButton.jsx";
+import { assetPath } from "../utils/assets.js";
 import { whatsappMessages } from "../utils/whatsapp.js";
 import { setSeo } from "../utils/seo.js";
 
@@ -50,13 +51,13 @@ export default function About() {
         eyebrow="About"
         title="About Magelang LuxeTrip"
         description="A premium travel agency concept built around comfort, clarity, local expertise, and curated Magelang experiences."
-        image="/images/magelang-family.png"
+        image={assetPath("images/magelang-family.png")}
       />
       <section className="section-padding">
         <div className="container-shell grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
           <div className="overflow-hidden rounded-lg">
             <img
-              src="/images/magelang-village.png"
+              src={assetPath("images/magelang-village.png")}
               alt="Magelang highland village and mountain scenery"
               className="aspect-[4/5] h-full w-full object-cover"
             />

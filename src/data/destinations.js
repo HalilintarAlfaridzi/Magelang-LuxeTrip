@@ -1,8 +1,10 @@
+import { assetPath } from "../utils/assets.js";
+
 const images = {
-  hero: "/images/magelang-hero.png",
-  sunrise: "/images/magelang-sunrise.png",
-  village: "/images/magelang-village.png",
-  family: "/images/magelang-family.png",
+  hero: assetPath("images/magelang-hero.png"),
+  sunrise: assetPath("images/magelang-sunrise.png"),
+  village: assetPath("images/magelang-village.png"),
+  family: assetPath("images/magelang-family.png"),
 };
 
 export const destinations = [
